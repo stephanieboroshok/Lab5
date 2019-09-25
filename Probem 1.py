@@ -5,13 +5,13 @@
 
 def roll_dice (die1,die2):
     if ((die1%2==0) and (die2%2==0)):
-        print ('You get 3 points!')
+        return ('You get 3 points!')
     elif ((die1%2==1) and (die2%2==1)):
-        print ('You get 5 points!')
+        return ('You get 5 points!')
     elif ((die1%2==1) and (die2%2==0)):
-        print ('You get 1 point.')
+        return ('You get 1 point.')
     elif ((die1%2==0) and (die2%2==1)):
-        print ('You get 1 point.')
+        return ('You get 1 point.')
     else:
         pass
 
